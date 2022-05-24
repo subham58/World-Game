@@ -4,13 +4,12 @@
 from art import *
 from typing import List
 from colorama import Fore
-from cv2 import split
 from letter_state import LetterState
 from wordle import Wordle
 import random
 
 
-tprint("--------WORDLE---------")
+tprint("-----WORDLE------")
 
 print(Fore.LIGHTRED_EX + "Welcome to the Wordle Game!!!" + Fore.RESET)
 print("\n")
@@ -30,7 +29,7 @@ def main():
     wordle = Wordle(secret)
 
     while wordle.can_attempt:
-        x = input(Fore.YELLOW + "\nType your guess:" + Fore.YELLOW) 
+        x = input(Fore.YELLOW + "\nType your guess:" + Fore.RESET) 
 
         if len(x) != wordle.LENGTH_WORD:
             print(Fore.RED + f"Word must be {wordle.LENGTH_WORD} characters long!" + Fore.RESET)
