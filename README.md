@@ -25,8 +25,8 @@ After each guess, the color of the letters will change to show how close your gu
 
 ## Screenshots
 - Welcome
-![image]()
+![image](https://github.com/subham58/World-Game/blob/master/Screenshots/Screenshot%20(560).png)
 - Guess...
-![image]()
+![image](https://github.com/subham58/World-Game/blob/master/Screenshots/Screenshot%20(561).png)
 - Result
-![image]()
+![image](https://github.com/subham58/World-Game/blob/master/Screenshots/Screenshot%20(562).png)
